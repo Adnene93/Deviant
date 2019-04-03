@@ -1,0 +1,2 @@
+python ../../../../Deviant-Code/main.py  quality_MOVIELENS_qual.json -q --using_approxmations --significance 0.01 --nb_attributes_individuals 2 --nb_attributes_entities 1 --threshold_objects 5 --threshold_individuals 25 --compute_p_value --compute_bootstrap_ci --no_additional_files
+Pause

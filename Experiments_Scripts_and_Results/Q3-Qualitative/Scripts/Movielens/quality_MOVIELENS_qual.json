@@ -1,0 +1,42 @@
+{
+	"objects_file":"../../../../Datasets/MOVIELENS/items.csv",
+	"individuals_file":"../../../../Datasets/MOVIELENS/users.csv",
+	"reviews_file":"../../../../Datasets/MOVIELENS/reviews.csv",
+	"delimiter":"\t",
+
+	"nb_objects":50000,
+	"nb_individuals":50000,
+
+	"arrayHeader":["genres"],
+	"numericHeader":["Rating","releaseDate"],
+	"vector_of_outcome":null,
+	
+	"description_attributes_objects":[["genres", "themes"],["releaseDate", "numeric"]],
+	"description_attributes_individuals":[["ageGroup","simple"],["gender","simple"],["occupation","simple"]],	
+	"threshold_objects":10,
+	"threshold_individuals":25,
+	"threshold_quality":0.05,
+	
+
+	
+	"quality_measure":"BOTH", 
+	"algorithm":"P_VALUE_PEERS", 
+	"outcome_distance_function":"ordinal_complex",
+	"ratings_to_remove":[],
+	"timebudget":86400,
+	
+
+	"objects_scope":[
+		
+	], 
+	"contexts_scope":[
+		
+	],
+
+	"individuals_scope": [
+		
+	],
+  
+   "results_destination":".//results_movielens.csv",
+   "detailed_results_destination":".//DetailedResults//"
+}

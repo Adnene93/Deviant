@@ -1,0 +1,76 @@
+{
+	"objects_file":"../../../../Datasets/CHUS102115_CongressHouseUnitedStates/items.csv",
+	"individuals_file":"../../../../Datasets/CHUS102115_CongressHouseUnitedStates/users.csv",
+	"reviews_file":"../../../../Datasets/CHUS102115_CongressHouseUnitedStates/reviews.csv",
+	"delimiter":"\t",
+
+	"nb_objects":50000,
+	"nb_individuals":50000,
+
+	"arrayHeader":["topic"],
+	"numericHeader":["year","congress"],
+	"vector_of_outcome":null,
+	
+	"description_attributes_objects":[["topic", "themes"],["congress", "numeric"],["year","numeric"]],
+	"description_attributes_objects_detailed":[["topic", "themes"],["year", "numeric"],["congress","numeric"]],
+	"description_attributes_individuals":[["party_code","simple"],["state_abbrev","simple"]],
+	"description_attributes_individuals_detailed":[],
+	"threshold_objects":100,
+	"threshold_individuals":2,
+	
+
+	
+	"quality_measure":"BOTH", 
+	"algorithm":"P_VALUE_PEERS", 
+	"algorithm_2":"COMMON_PEERS", 
+
+	"threshold_quality":0.05,
+	"threshold_quality_2":0.4,
+
+	"outcome_distance_function":"categorical",
+	"ratings_to_remove":[], 
+	"ratings_to_remove_NO_ABSTAIN":["Abstain"],
+ 	"timebudget":86400,
+	
+
+	"objects_scopex":[
+		
+		
+	], 
+	"contexts_scope":[
+		
+	],
+
+	"individuals_scopex": [
+		
+	],
+
+	
+	"objects_scope":[
+		{
+			"dimensionName": "congress",
+			"inInterval": [115.0,115.0]
+		}
+	],
+
+	"individuals_scope": [
+		{
+			"dimensionName": "party_code",
+			"inSet": [
+				"Republican Party"
+			]
+		}
+	],
+
+	"individuals_scope_DEMO": [
+		{
+			"dimensionName": "party_code",
+			"inSet": [
+				"Democratic Party"
+			]
+		}
+	],
+  
+   "results_destination":".//results_CHUS.csv",
+   "detailed_results_destination":".//DetailedResults//"
+}

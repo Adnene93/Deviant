@@ -1,0 +1,44 @@
+{
+	"objects_file":"../../../Datasets/YELP/items.csv",
+	"individuals_file":"../../../Datasets/YELP/users_new.csv",
+	"reviews_file":"../../../Datasets/YELP/reviews.csv",
+	"delimiter":"\t",
+
+	"nb_objects":5000000,
+	"nb_individuals":5000000,
+
+	"arrayHeader":["categories"],
+	"numericHeader":["stars","releaseDate"],
+	"vector_of_outcome":null,
+	
+	"description_attributes_objects":[["categories", "themes"],["state", "simple"]],
+	"description_attributes_individuals":[["seniority", "simple"],["elite", "simple"],["friends_network", "simple"]],
+		
+
+	"threshold_objects":30,
+	"threshold_individuals":50,
+	"threshold_quality":0.05,
+	
+
+	
+	"quality_measure":"BOTH", 
+	"algorithm":"P_VALUE_PEERS", 
+	"outcome_distance_function":"ordinal_complex",
+	"ratings_to_remove":[],
+	"timebudget":86400,
+	
+
+	"objects_scope":[
+		
+	], 
+	"contexts_scope":[
+		
+	],
+
+	"individuals_scope": [
+		
+	],
+  
+   "results_destination":".//results_yelp.csv",
+   "detailed_results_destination":".//DetailedResults//"
+}

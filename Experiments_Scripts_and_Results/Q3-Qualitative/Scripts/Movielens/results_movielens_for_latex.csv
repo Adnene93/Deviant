@@ -1,0 +1,25 @@
+id_pattern	group	context	reliability_ref	reliability_context	pattern_p_value	state_intra_agreement
+0	old * 	['1 Action', '2 Adventure', '6 Crime'] 	-0.06	-0.29	<0.01	CONFLICTUAL
+1	middle-age M 	['12 Musical', '2 Adventure'] 	0.05	0.21	<0.01	CONSENSUAL
+2	old * 	['12 Musical', '4 Children'] 	-0.06	-0.21	<0.01	CONFLICTUAL
+3	middle-age * 	['1 Action', '2 Adventure', '6 Crime'] 	0.05	0.19	<0.01	CONSENSUAL
+4	old * 	['3 Animation'] 	-0.06	-0.18	<0.01	CONFLICTUAL
+5	* F 	['2 Adventure', '9 Fantasy'] 	0.04	0.16	<0.01	CONSENSUAL
+6	middle-age * 	['2 Adventure', '3 Animation'] 	0.05	0.18	<0.01	CONSENSUAL
+7	* * 	['1 Action', '4 Children'] 	0.07	0.19	<0.01	CONSENSUAL
+8	old * 	['11 Horror'] 	-0.06	-0.16	<0.01	CONFLICTUAL
+9	* F 	['4 Children', '9 Fantasy'] 	0.04	0.12	<0.01	CONSENSUAL
+10	middle-age M 	['1 Action', '6 Crime'] 	0.05	0.13	<0.01	CONSENSUAL
+11	middle-age * 	['9 Fantasy'] 	0.05	0.12	<0.01	CONSENSUAL
+12	* * 	['7 Documentary'] 	0.07	0.0	<0.001	CONFLICTUAL
+13	middle-age * 	['11 Horror'] 	0.05	0.1	<0.001	CONSENSUAL
+14	middle-age * 	['4 Children'] 	0.05	0.09	<0.01	CONSENSUAL
+15	* * 	['14 Romance', '8 Drama'] 	0.07	0.04	<0.01	CONFLICTUAL
+16	* M 	['8 Drama'] 	0.07	0.05	<0.0001	CONFLICTUAL
+17	young * 	['8 Drama'] 	0.07	0.05	<0.0001	CONFLICTUAL
+18	middle-age * 	['16 Thriller'] 	0.05	0.07	<0.01	CONSENSUAL
+19	young * 	['1 Action'] 	0.07	0.09	<0.01	CONSENSUAL
+20	middle-age * 	['8 Drama'] 	0.05	0.03	<0.0001	CONFLICTUAL
+21	* F 	['16 Thriller'] 	0.04	0.06	<0.01	CONSENSUAL
+22	* F 	['8 Drama'] 	0.04	0.03	<0.001	CONFLICTUAL
+23	* * 	['5 Comedy'] 	0.07	0.08	<0.01	CONSENSUAL

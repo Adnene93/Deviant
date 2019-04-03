@@ -1,0 +1,5 @@
+algorithm	compute_bootstrap_ci	nb_entities	nb_individuals	nb_individuals_attributes	nb_individuals_attributes_items	nb_contexts_attributes	nb_contexts_attributes_items	support_individuals_threshold	support_context_threshold	quality_threshold	closure_operator	pruning	using_approxmations	nb_random_sample	distance_function	timespent_execution	timespent_init	timespent_total	nb_explored	nb_patterns	timespent
+DEPICT	False	127162	1029432	3	2	2	301	0.01	0.001	0.05	True	True	True	1000	ordinal_complex	4042.3320610523224	271.9602677822113	4314.292328834534	23	21	4314.292328834534
+DEPICT	False	127162	1029432	3	2	2	602	0.01	0.001	0.05	True	True	True	1000	ordinal_complex	4058.607395172119	271.3201720714569	4329.927567243576	28	26	4329.927567243576
+DEPICT	False	127162	1029432	3	2	2	903	0.01	0.001	0.05	True	True	True	1000	ordinal_complex	4074.381623029709	272.93911695480347	4347.320739984512	32	28	4347.320739984512
+DEPICT	False	127162	1029432	3	2	2	1204	0.01	0.001	0.05	True	True	True	1000	ordinal_complex	4075.702373981476	269.8218319416046	4345.52420592308	34	30	4345.52420592308

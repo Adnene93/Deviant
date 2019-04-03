@@ -1,0 +1,4 @@
+algorithm	compute_bootstrap_ci	nb_entities	nb_individuals	nb_individuals_attributes	nb_individuals_attributes_items	nb_contexts_attributes	nb_contexts_attributes_items	support_individuals_threshold	support_context_threshold	quality_threshold	closure_operator	pruning	using_approxmations	nb_random_sample	distance_function	timespent_execution	timespent_init	timespent_total	nb_explored	nb_patterns	timespent
+DEPICT_BS	True	17346	1373	2	20	3	307	0.01	0.001	0.05	True	True	True	1000	categorical	206.07002687454224	30.425038814544678	236.4950656890869	54785	58	236.4950656890869
+DEPICT_BS	True	17346	1373	2	20	3	307	0.01	0.001	0.01	True	True	True	1000	categorical	471.14954590797424	30.469696044921875	501.6192419528961	80868	73	501.6192419528961
+DEPICT_BS	True	17346	1373	2	20	3	307	0.01	0.001	0.001	True	True	True	1000	categorical	2943.6123740673065	30.132630109786987	2973.7450041770935	111435	31	2973.7450041770935
