@@ -1,0 +1,3 @@
+Due to the large data-file we advise the user to send a mail to ask for the used Yelp dataset in the paper: 
+
+mail: adnene.belfodil@gmail.com
