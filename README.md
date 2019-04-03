@@ -43,6 +43,7 @@ In order to launch the algorithm ```DEvIANT``` to read a behavioral dataset and 
 	"results_destination":<yielded patterns results file path"> (e.g. .//results.csv")
 	"detailed_results_destination": <yielded patterns additional results directory path - such as the context and groups informations> (e.g.".//DetailedResults//")
 }
+```
 
 Once the configuration file is defined it can be executed using the command below.
 
