@@ -1,0 +1,53 @@
+{
+	"objects_file":"../../../Datasets/EPD8DEDUP/items.csv",
+	"individuals_file":"../../../Datasets/EPD8DEDUP/users.csv",
+	"reviews_file":"../../../Datasets/EPD8DEDUP/reviews.csv",
+	"delimiter":"\t",
+
+	"nb_objects":50000,
+	"nb_individuals":50000,
+
+	"arrayHeader":["PROCEDURE_SUBJECT","LANGUAGES"],
+	"numericHeader":["VOTE_DATE","GEOSIZE","POP16","POP16_PERCENTAGE","GDP_BILLIONS","NB_SEATS_IN_EU","EU_MEMBER_SINCE"],
+	"vector_of_outcome":null,
+	
+	"description_attributes_objects":[["PROCEDURE_SUBJECT", "themes"],["VOTE_DATE", "numeric"],["COMMITTEE", "simple"]],
+	"description_attributes_individuals":[["COUNTRY", "simple"],["GROUPE_ID", "simple"],["NATIONAL_PARTY", "simple"]],
+	
+	"threshold_objects":10,
+	"threshold_individuals":2,
+	"threshold_quality":0.05,
+	
+
+	
+	"quality_measure":"BOTH", 
+	"algorithm":"P_VALUE_PEERS", 
+	"outcome_distance_function":"categorical",
+	"ratings_to_remove":[], 
+	"ratings_to_remove_NO_ABSTAIN":["Abstain"],
+ 	"timebudget":86400,
+	
+
+	"objects_scope":[
+		
+	], 
+	"contexts_scope":[
+		
+	],
+
+	"individuals_scope": [
+		
+	],
+
+	"individuals_scope_old": [
+		{
+			"dimensionName": "COUNTRY",
+			"inSet": [
+				"Netherlands"
+			]
+		}
+	],
+  
+   "results_destination":".//results_epd8_significant_consensual.csv",
+   "detailed_results_destination":".//DetailedResults//"
+}
