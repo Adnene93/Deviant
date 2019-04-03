@@ -1,0 +1,4 @@
+id_pattern	group	context	reliability_ref	reliability_context	pattern_p_value	state_intra_agreement
+0	Republican Party 	['20.11 Government Branch Relations, Administrative Issues, and Constitutional Reforms'] [115.0, 115.0] 	0.83	0.32	<0.0001	CONFLICTUAL
+1	Republican Party 	['5 Labor'] [115.0, 115.0] 	0.83	0.63	<0.01	CONFLICTUAL
+2	Republican Party 	['20.05 Nominations and Appointments Not Codable Elsewhere'] [115.0, 115.0] 	0.83	0.92	<0.0001	CONSENSUAL

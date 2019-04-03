@@ -3,7 +3,7 @@ This repository contains materials (Implementation and Experiments) concerning t
 This repository contains the materials concerning the paper in review: Identifying exceptional (dis)agreement between groups. It contains:
 1. **Deviant-Code**: includes all the python scripts of the framework Deviant. Please run the scripts using Python 2.7 (we are so old fashioned :-) ) 
 2. **Experiments_Scripts_and_Results**: includes all experiments reported in the paper (quantitative and qualitative) as well as the set of scripts used to generate the experiments.
-3. **Datasets**: Contains the behavioral datasets used for the qualitative and quantitative experiments reported in the paper. 
+3. **Datasets**: Contains the behavioral datasets used for the qualitative and quantitative experiments reported in the paper (Please extract the dataset files before running the experiments). 
 4. **Example**: Contain an example of an input parameter file which allows to launch the method and uncover exceptional (dis-)agreement within groups.  
 
 Below we give the method overview. Note that ```DEvIANT``` stands for Discovering statistically significant Exceptional contextual Intra-group Agreement paTterns.
@@ -58,6 +58,10 @@ python .//Deviant-Code//main.py -h
 ```
 
 The script allows also to launch performance experiments, examples of such commands for each benchmark dataset are given in Experiments_Scripts_and_Results.py. 
+
+### An illustrative example of the patterns returned by ```DEvIANT```
+
+
 
 ### Version
 1.0.0
