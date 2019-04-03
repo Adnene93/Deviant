@@ -61,8 +61,16 @@ The script allows also to launch performance experiments, examples of such comma
 
 ### An illustrative example of the patterns returned by ```DEvIANT```
 
+Some patterns returned by ```DEvIANT``` when looking for exceptional consensual/conflictual topic in the 115 th Congress - house of representative  between republicans.
 
-![](Figures/pattern0.png)
+| id_pattern | group             | context                                                                                     | nb individuals | nb entities | nb outcomes | Overall intra-group agreement | Contextual intra-group agreement | Deviation | confidence interval | p value | state intra-agreement |
+|------------|-------------------|---------------------------------------------------------------------------------------------|----------------|-------------|-------------|-------------------------------|----------------------------------|-----------|---------------------|---------|-----------------------|
+| Pattern 1  | Republican Party  | ['20.11 Government Branch Relations, Administrative Issues, and   Constitutional Reforms']  | 246            | 27          | 6178        | 0.83                          | 0.32                             | -0.51     | [0.67, 0.99]        | <0.0001 | Conflictual           |
+| Pattern 2  | Republican Party  | ['5 Labor']                                                                                 | 246            | 22          | 5071        | 0.83                          | 0.64                             | -0.20     | [0.659, 1.]         | <0.01   | Conflictual           |
+| Pattern 3  | Republican Party  | ['20.05 Nominations and Appointments Not Codable Elsewhere']                                | 246            | 177         | 40879       | 0.83                          | 0.92                             | +0.09     | [0.76, 0.89]        | <0.0001 | Consensual            |
+
+
+![](Figures/pattern0.jpg)
 
 
 
