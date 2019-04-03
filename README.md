@@ -14,7 +14,7 @@ Below we give the method overview. Note that ```DEvIANT``` stands for Discoverin
   &nbsp;
   
 ### Qualitative experiments 
-In order to launch the algorithm ```DEvIANT``` to read a behavioral dataset and returns a set of relevant exceptional (dis-)agreement patterns, a configuration file need to be specified to the method which structure is given below:  
+In order to launch the algorithm ```DEvIANT``` to read a behavioral dataset and returns a set of relevant exceptional (dis-)agreement patterns, a configuration file need to be specified to the method which structure is given below. We give an example in the "Example" directory where a configuration file and a command are defined.  
 
 ```
 {
