@@ -62,6 +62,9 @@ The script allows also to launch performance experiments, examples of such comma
 ### An illustrative example of the patterns returned by ```DEvIANT```
 
 
+![](Figures/pattern0.png)
+
+
 
 ### Version
 1.0.0
