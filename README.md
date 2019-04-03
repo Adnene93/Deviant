@@ -70,7 +70,7 @@ Some patterns returned by ```DEvIANT``` when looking for exceptional consensual/
 | Pattern 3  | Republican Party  | ['20.05 Nominations and Appointments Not Codable Elsewhere']                                | 246            | 177         | 40879       | 0.83                          | 0.92                             | +0.09     | [0.76, 0.89]        | <0.0001 | Consensual            |
 
 
-![](Figures/pattern0.jpg)
+![](Figures/pattern0.png)
 
 
 
