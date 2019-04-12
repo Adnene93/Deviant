@@ -1,6 +1,5 @@
 # DEvIANT
-This repository contains materials (Implementation and Experiments) concerning the paper in review: "DEvIANT : Discovering statistically significant exceptional (dis-)agreement within groups"
-This repository contains the materials concerning the paper in review: Identifying exceptional (dis)agreement between groups. It contains:
+This repository contains materials (Implementation and Experiments) concerning the paper in review: "DEvIANT : Discovering statistically significant exceptional (dis-)agreement within groups". It contains:
 1. **Deviant-Code**: includes all the python scripts of the framework Deviant. Please run the scripts using Python 2.7 (we are so old fashioned :-) ) 
 2. **Experiments_Scripts_and_Results**: includes all experiments reported in the paper (quantitative and qualitative) as well as the set of scripts used to generate the experiments.
 3. **Datasets**: Contains the behavioral datasets used for the qualitative and quantitative experiments reported in the paper (Please extract the dataset files before running the experiments). 
